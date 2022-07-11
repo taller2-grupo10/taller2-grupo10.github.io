@@ -1,7 +1,7 @@
 ---
 title: Bitácora
 layout: template
-filename: binnacle.md
+filename: binnacle.html
 ---
 
 # Bitácora del proyecto
