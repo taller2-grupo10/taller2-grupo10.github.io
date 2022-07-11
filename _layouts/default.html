@@ -12,18 +12,18 @@
 
 <body>
 
-  <header class="page-header" role="banner">
-    <h1 class="project-name">
-        <img src="../img/spotifiuby-logo.png" alt="Spotifiuby" width="250" height="188">
-        <b>{{ site.title | default: page.title }}</b>
+  <header class="page-header" role="banner" style="height: 340px;">
+    <h1 class="project-name" style="margin-top: -55px;align-items: center;display: inline-flex;">
+      <a href="./"><img src="../img/spotifiuby-logo.png" alt="Spotifiuby" width="250" height="188"></a>
+      <b>{{ site.title | default: page.title }}</b>
     </h1>
     <h2 class="project-tagline">{{ page.description | default: site.description}}</h2>
-    {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">Ver en GitHub</a>
+    {% if site.github %}
+    <a href="https://github.com/taller2-grupo10" class="btn" target="_blank">Ver en GitHub</a>
     {% endif %}
 
     <a href="./" class="btn">Inicio</a>
-    <a href="./binnacle.html" class="btn">Bitácora</a>
+    <a href="./binnacle.html" class="btn">Bitácora</a>  
   </header>
 
   <main id="content" class="main-content" role="main">
