@@ -13,17 +13,19 @@
 <body>
 
   <header class="page-header" role="banner">
-    <div>
+    <span>
       <img src="../img/spotifiuby-logo.png" alt="Spotifiuby" width="250" height="188">
       <h1 class="project-name">{{ site.title | default: page.title }}</h1>
-    </div>
+    </span>
     <h2 class="project-tagline">{{ page.description | default: site.description}}</h2>
     {% if site.github.is_project_page %}
     <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
     {% endif %}
 
-    <a href="./" class="btn">Inicio</a>
-    <a href="./binnacle.html" class="btn">Bitácora</a>
+    {% for page in site.pages %}
+      <a href={{ page.filename }} class="btn">{{ page.title }}</a>
+    {% endfor %}
+
   </header>
 
   <main id="content" class="main-content" role="main">
