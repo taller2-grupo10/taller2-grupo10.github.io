@@ -15,7 +15,7 @@
   <header class="page-header" role="banner">
     <h1 class="project-name">
         <img src="../img/spotifiuby-logo.png" alt="Spotifiuby" width="250" height="188">
-        {{ site.title | default: page.title }}
+        <b>{{ site.title | default: page.title }}</b>
     </h1>
     <h2 class="project-tagline">{{ page.description | default: site.description}}</h2>
     {% if site.github.is_project_page %}
