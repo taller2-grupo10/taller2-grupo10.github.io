@@ -30,37 +30,40 @@
     
     .subnav {
       /* float: left; */
-      overflow: hidden;
+      /* overflow: hidden; */
     }
     
     .subnav .subnavbtn {
       /* font-size: 16px;   */
-      /* border: none; */
+      border: none;
       /* outline: none; */
       /* color: white; */
       /* padding: 14px 16px; */
-      background-color: inherit;
+      background-color: initial;
       font-family: inherit;
       margin: 0;
     }
     
     .subnav-content {
       display: none;
-      position: absolute;
-      left: 0;
-      background-color: red;
+      /* position: absolute; */
+      /* left: 0; */
+      /* background-color: red; */
       width: 100%;
-      z-index: 1;
+      /* z-index: 1; */
     }
     
     .subnav-content a {
       float: left;
-      color: white;
+      color: inherit;
       text-decoration: none;
+      margin-left: 10px;
+      margin-top: 6px;
+      background-color: initial;
     }
     
     .subnav-content a:hover {
-      background-color: #eee;
+      background-color: initial;
       color: black;
     }
     
@@ -73,7 +76,7 @@
 
 <body>
 
-  <header class="page-header" role="banner" style="height: 340px;">
+  <header class="page-header" role="banner" style="height: 360px;">
     <h1 class="project-name" style="margin-top: -55px;align-items: center;display: inline-flex;">
       <a href="./"><img src="../img/spotifiuby-logo.png" alt="Spotifiuby" width="250" height="188"></a>
       <b>{{ site.title | default: page.title }}</b>
