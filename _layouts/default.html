@@ -9,36 +9,13 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-    }
-    
-    .navbar {
-      overflow: hidden;
-      background-color: #333; 
-    }
-    
-    .navbar a {
-      /* float: left; */
-      /* font-size: 16px; */
-      /* color: white; */
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
     .subnav {
       /* float: left; */
       /* overflow: hidden; */
     }
     
     .subnav .subnavbtn {
-      /* font-size: 16px;   */
       border: none;
-      /* outline: none; */
-      /* color: white; */
-      /* padding: 14px 16px; */
       background-color: initial;
       font-family: inherit;
       margin: 0;
@@ -46,11 +23,7 @@
     
     .subnav-content {
       display: none;
-      /* position: absolute; */
-      /* left: 0; */
-      /* background-color: red; */
       width: 100%;
-      /* z-index: 1; */
     }
     
     .subnav-content a {
@@ -71,7 +44,6 @@
       display: block;
     }
     </style>
-
 </head>
 
 <body>
@@ -88,13 +60,14 @@
 
     <a href="./" class="btn">Inicio</a>
     <div class="btn subnav">
-      <button class="subnavbtn">Bitacora </button>
+      <button class="subnavbtn"><a href="./binnacle.html">Bitácora</a></button>
       <div class="subnav-content">
         <a href="./binnacle.html">Checkpoint 1</a>
         <a href="./binnacle.html">Checkpoint 2</a>
+        <a href="./binnacle.html">Checkpoint 3</a>
+        <a href="./binnacle.html">Checkpoint 4</a>
       </div>
     </div> 
-    <a href="./binnacle.html" class="btn">Bitácora</a>  
     <a href="./admin.html" class="btn">Back office</a>  
   </header>
 
