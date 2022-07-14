@@ -18,6 +18,9 @@ Se incluyen tanto documentaciones como manuales de usuario:
 
 ## 🌐 [Enunciado](https://taller-de-programacion-2.github.io/works/statement/2022/1/enunciado/)
 
+[Log de historias](https://docs.google.com/spreadsheets/d/1TqrLkdfnZFlCYj1GcVWy4FZQkYrAnCF6BexWF3Jk0TY/)
+
+
 Workflow utilizado: feature branches en todos los repos exceptuando `api-be` que por la simplicidad de ser un backend de servicios solo requirió un setup muy básico y escueto que fue resuelto en menos de una docena de commits.
 
 ---

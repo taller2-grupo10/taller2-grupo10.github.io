@@ -39,3 +39,4 @@
 - Implementación de API key del servicio principal de la app, medio por el cual se comunican los servicios de la app.
 - Se corrigió un problema que ocurría con Firebase al momento de subir archivos a Firebase Storage desde `media-be`, esto generaba que en múltiples ocasiones no se lograran subir archivos y se generase un timeout.
   La solución fue subir el archivo en `users-be` para que luego `media-be` pueda obtener su link, evitando así el timeout y enviar archivos potencialmente grandes a través de dos backends. Esto permite la subida más rápida de archivos ya que solo se realiza "un viaje".
+- Se agregan códigos de error genéricos.
