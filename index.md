@@ -6,7 +6,7 @@ En esta página se podrá encontrar información general sobre el proyecto.
 
 Se incluyen tanto documentaciones como manuales de usuario:
 
-- 📁 [Servicios Backend](backend.md):
+- 📁 [Servicios Backend](architecture.md):
   - Documentación técnica
   - Instalación y configuración
   - Definición de arquitectura
@@ -17,6 +17,8 @@ Se incluyen tanto documentaciones como manuales de usuario:
 - 📁 Análisis postmortem
 
 ## 🌐 [Enunciado](https://taller-de-programacion-2.github.io/works/statement/2022/1/enunciado/)
+
+Workflow utilizado: feature branches en todos los repos exceptuando `api-be` que por la simplicidad de ser un backend de servicios solo requirió un setup muy básico y escueto que fue resuelto en menos de una docena de commits.
 
 ---
 
