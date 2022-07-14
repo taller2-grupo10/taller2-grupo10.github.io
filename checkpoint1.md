@@ -1,4 +1,4 @@
-# Checkpoint 1 - 29/04/2022
+# 📌 Checkpoint 1 - 29/04/2022
 
 💡 Aquí se encuentran los detalles del progreso al momento de la presentación del checkpoint 1.
 
