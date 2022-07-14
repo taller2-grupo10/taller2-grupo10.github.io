@@ -1,9 +1,9 @@
 # Documentación del back-office
 <a href="https://admin-fe-spotifiuby.herokuapp.com/">
-<img src="img/admin/spotify.png" style="width:100px;"/>
+<img src="img/spotify.png" style="width:100px;"/>
 </a>
 <a href="https://github.com/taller2-grupo10/admin-fe">
-<img src="img/admin/github.png" style="width:100px;"/>
+<img src="img/github.png" style="width:100px;"/>
 </a>
 
 
