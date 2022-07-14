@@ -31,22 +31,22 @@ Se incluyen tanto documentaciones como manuales de usuario:
 ## App Repo links
 
 <a href="https://github.com/taller2-grupo10/admin-fe" style="margin-right: 10px;">
-<img src="img/github-admin-fe.png" style="width:90px;"/>
+<img src="img/github-admin-fe.png" style="width:105px;"/>
 </a>
 <a href="https://github.com/taller2-grupo10/mobile-fe" style="margin-right: 10px;">
-<img src="img/github-mobile-fe.png" style="width:90px;"/>
+<img src="img/github-mobile-fe.png" style="width:105px;"/>
 </a>
 <a href="https://github.com/taller2-grupo10/users-be" style="margin-right: 10px;">
-<img src="img/github-users-be.png" style="width:90px;"/>
+<img src="img/github-users-be.png" style="width:105px;"/>
 </a>
 <a href="https://github.com/taller2-grupo10/media-be" style="margin-right: 10px;">
-<img src="img/github-media-be.png" style="width:90px;"/>
+<img src="img/github-media-be.png" style="width:105px;"/>
 </a>
 <a href="https://github.com/taller2-grupo10/payments-be" style="margin-right: 10px;">
-<img src="img/github-payments-be.png" style="width:90px;"/>
+<img src="img/github-payments-be.png" style="width:105px;"/>
 </a>
 <a href="https://github.com/taller2-grupo10/api-be" style="margin-right: 10px;">
-<img src="img/github-api-be.png" style="width:90px;"/>
+<img src="img/github-api-be.png" style="width:105px;"/>
 </a>
 
 ---
