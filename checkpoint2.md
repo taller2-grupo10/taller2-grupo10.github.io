@@ -1,4 +1,4 @@
-# Checkpoint 2 - 27/05/2022
+# 📌 Checkpoint 2 - 27/05/2022
 
 💡 Aquí se encuentran los detalles del progreso al momento de la presentación del checkpoint 2.
 

@@ -1,4 +1,4 @@
-# Checkpoint 3 - 17/06/2022 → 24/06/2022
+# 📌 Checkpoint 3 - 17/06/2022 → 24/06/2022
 
 💡 Aquí se encuentran los detalles del progreso al momento de la presentación del checkpoint 3.
 
