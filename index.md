@@ -6,7 +6,7 @@ En esta página se podrá encontrar información general sobre el proyecto.
 
 Se incluyen tanto documentaciones como manuales de usuario:
 
-- 📁 [Servicios Backend](backend.md):
+- 📁 [Servicios Backend](architecture.md):
   - Documentación técnica
   - Instalación y configuración
   - Definición de arquitectura
