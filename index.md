@@ -11,7 +11,7 @@ Se incluyen tanto documentaciones como manuales de usuario:
   - Instalación y configuración
   - Definición de arquitectura
   - Especificación de API REST: OpenAPI
-- Guia de usuario de la aplicación
+- 📁 [Guia de usuario de la aplicación](mobile.md)
 - 📁 [Guia de usuario del backoffice](admin.md)
 - 📁 [Bitácora de proyecto](binnacle.md)
 - 📁 Análisis postmortem
@@ -24,6 +24,9 @@ Se incluyen tanto documentaciones como manuales de usuario:
 
 <a href="https://admin-fe-spotifiuby.herokuapp.com/" target="_blank">
 <img src="img/spotify-backoffice.png" style="width:100px;"/>
+</a>
+<a href="https://expo.dev/artifacts/eas/xkLGa8dBjGr4n9iTBKqmDg.apk" target="_blank">
+<img src="img/spotify-mobile.png" style="width:100px;"/>
 </a>
 
 ---
