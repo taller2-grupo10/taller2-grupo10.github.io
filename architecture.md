@@ -4,9 +4,11 @@
 
 El desarrollo de la aplicación comenzó planteándose y dividendo la organización en tres grandes frentes: Mobile, Backend y Frontend (Backoffice).
 
+Para toda la aplicación el workflow utilizado fue feature branches en todos los repositorios exceptuando `api-be` que por la simplicidad de ser un backend de servicios solo requirió un setup muy básico.
+
 A continuación podemos observar el diagrama de arquitectura de los servicios de la aplicación.
 
-<img src="img/spotifiuby-arq.jpeg" style="width:700px;" />
+<img src="img/spotifiuby-arq.png" style="width:700px;" />
 
 ---
 

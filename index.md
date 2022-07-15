@@ -14,14 +14,10 @@ Se incluyen tanto documentaciones como manuales de usuario:
 - 📁 [Guia de usuario de la aplicación](mobile.md)
 - 📁 [Guia de usuario del backoffice](admin.md)
 - 📁 [Bitácora de proyecto](binnacle.md)
-- 📁 Análisis postmortem
+- 📁 [Análisis postmortem](postmortem.md)
+- 📁 [Deuda técnica](technicalDebt.md)
 
 ## 🌐 [Enunciado](https://taller-de-programacion-2.github.io/works/statement/2022/1/enunciado/)
-
-[Log de historias](https://docs.google.com/spreadsheets/d/1TqrLkdfnZFlCYj1GcVWy4FZQkYrAnCF6BexWF3Jk0TY/)
-
-
-Workflow utilizado: feature branches en todos los repos exceptuando `api-be` que por la simplicidad de ser un backend de servicios solo requirió un setup muy básico y escueto que fue resuelto en menos de una docena de commits.
 
 ---
 
@@ -61,6 +57,8 @@ Workflow utilizado: feature branches en todos los repos exceptuando `api-be` que
 
 ## Logs
 
+### 📄 [Log de Historias de Usuario](https://docs.google.com/spreadsheets/d/1TqrLkdfnZFlCYj1GcVWy4FZQkYrAnCF6BexWF3Jk0TY/)
+
 ### 📌 [Checkpoint 1 - 29/04/2022](checkpoint1.md)
 
 ### 📌 [Checkpoint 2 - 27/05/2022](checkpoint2.md)
@@ -68,3 +66,5 @@ Workflow utilizado: feature branches en todos los repos exceptuando `api-be` que
 ### 📌 [Checkpoint 3 - 17/06/2022 → 24/06/2022](checkpoint3.md)
 
 ### 📌 [Checkpoint 4 y Final - 08/07/2022](checkpointFinal.md)
+
+### 📌 [Deuda Técnica](technicalDebt.md)

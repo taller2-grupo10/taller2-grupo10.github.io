@@ -18,4 +18,4 @@ En las siguientes páginas se detallan los objetivos y cambios que se fueron rea
 
 ---
 
-## 📌 [Deuda Técnica - 08/07/2022](technicalDebt.md)
+## 📌 [Deuda Técnica](technicalDebt.md)
