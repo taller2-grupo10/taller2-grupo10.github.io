@@ -9,7 +9,8 @@
 
 ## Resumen
 
-Este es el back-office/dashboard/admin panel de Spotifiuby y sus diferentes servicios. Este cuenta con diferentes páginas que nos permiten controlar el sistema. Podremos contar con las herramientas necesarias para ver el contenido que a los que los usuarios tienen acceso y también al que no, ver los usuarios y su rol en el sistema, bloquear su acceso al mismo, así como crear nuevos administradores. Por otro lado ver métricas, servicios (API keys),listar transacciones Está intencionado para los administradores del sistema y únicamente hacia ellos.
+Este es el back-office/dashboard/admin panel de Spotifiuby y sus diferentes servicios. Este cuenta con diferentes páginas que nos permiten controlar el sistema. Podremos contar con las herramientas necesarias para ver el contenido que a los que los usuarios tienen acceso y también al que no, ver los usuarios y su rol en el sistema, bloquear su acceso al mismo, así como crear nuevos administradores. Por otro lado ver métricas, servicios (API keys),listar transacciones.
+Está intencionado unicamente para los administradores del sistema.
 
 Para el desarrollo de ésta página web fue utilizado React en javascript, utilizando la biblioteca Material UI ([MUI](https://mui.com/)) y de template base se uso uno de los que provee la biblioteca de manera gratuita, [Minimal – Client & Admin Dashboard
 .](https://mui.com/store/items/minimal-dashboard-free/)
@@ -21,8 +22,8 @@ Para el desarrollo de ésta página web fue utilizado React en javascript, utili
 ---
 
 - Únicamente se podrá ingresar con un usuario con credenciales de administrador
-- Snackbar para mostrar errores/cuando se ingresa correctamente
-- Validación de campos (formato mail y largos minimos)
+- Snackbar para mostrar errores o cuando se ingresa correctamente
+- Validación de campos (formato mail y largos mínimos)
 - Botón con estado cargando
 
 <img src="img/admin/login.gif" style="width:600px;" />
@@ -36,11 +37,11 @@ Para el desarrollo de ésta página web fue utilizado React en javascript, utili
 Por default se observa la categoría albums, en cualquier estado (activo e inactivo) y cualquier género.
 
 Para poder ver mas información de cualquier contenido se puede hacer doble click sobre la carta, un click sobre el titulo o presionar el botón del ojo.
-Tambíen contamos con la posibilidad de bloquear/activar el contenido apretando el boton que cambiará su icono según el estado y con un indicador del estado en forma de circulo rojo (bloqueado) o verde (activo).
+También contamos con la posibilidad de bloquear/activar el contenido apretando el botón que cambiará su icono según el estado y con un indicador del estado en forma de circulo rojo (bloqueado) o verde (activo).
 
 <img src="img/admin/albumAnotaciones.png" alt="drawing" style="height:500px;"/>
 
-En la información podremos ver los datos escenciales y, para albums y playlists, podremos ver las canciones que las componen
+En la información podremos ver los datos esenciales y, para albums y playlists, podremos ver las canciones que las componen
 <img src="img/admin/vistaContenido.png" alt="drawing" style="height:500px;"/>
 
 ### Filtros
@@ -99,7 +100,7 @@ Se cuenta con un selector de fecha para elegir el día desde donde se quieren ve
 
 ---
 
-Al igual que otras páginas se permite filtrado por estado, busqueda, ver los datos del servicio, bloquearlo y dar de alta.
+Al igual que otras páginas se permite filtrado por estado, búsqueda, ver los datos del servicio, bloquearlo y dar de alta.
 <img src="img/admin/servicioContenido.png" alt="drawing" style="height:500px;"/>
 
 Para crear una nueva API Key deberemos ingresar unicamente la descripción/nombre que se le quiere asignar a este servicio.
@@ -111,6 +112,6 @@ Para crear una nueva API Key deberemos ingresar unicamente la descripción/nombr
 
 ---
 
-Se listan las transacciones realizadas en el sistema con datos como el hash de la transacciones, hash de usuario que envío y el que recibío, monto, entre otros datos
+Se listan las transacciones realizadas en el sistema con datos como el hash de la transacciones, hash de usuario que envío y el que recibió, monto, entre otros datos
 
 <img src="img/admin/transacciones.gif" style="width:600px;" />

@@ -40,7 +40,7 @@ Estos puntos abarcan la totalidad de la app.
 - Ciertas mejoras de UX y UI.
 - Reproducción global en la app. (WIP)
 - Queue de canciones, pudiendo avanzar y retroceder.
-- Inscripcion a suscripción.
+- Inscripción a suscripción.
 
 ---
 

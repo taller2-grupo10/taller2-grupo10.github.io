@@ -15,3 +15,7 @@ En las siguientes páginas se detallan los objetivos y cambios que se fueron rea
 ---
 
 ## 📌 [Checkpoint 4 y Final - 08/07/2022](checkpointFinal.md)
+
+---
+
+## 📌 [Deuda Técnica - 08/07/2022](technicalDebt.md)

@@ -19,7 +19,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Para registrarse es necesario proveer distintos datos, estos son, el nombre completo, email, contraseña, locación y generos de interes
+- Para registrarse es necesario proveer distintos datos, estos son, el nombre completo, email, contraseña, locación y géneros de interés
 - Snackbar para mostrar errores
 - Validación de campos (formato mail, contraseña segura, campos requeridos)
 - Botón con estado cargando
@@ -70,7 +70,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Un buscador de canciones y artistas, posee cuatro formas de buscar, ya sea por el nombre de la cancion, el nombre del artista, el género o el tipo de suscripción.
+- Un buscador de canciones y artistas, posee cuatro formas de buscar, ya sea por el nombre de la canción, el nombre del artista, el género o el tipo de suscripción.
 
 <img src="img/mobile/search_name_vacio.jpg" style="width:300px;" />
 <img src="img/mobile/search_name_lleno.jpg" style="width:300px;" />
@@ -91,7 +91,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 ---
 
 - Pantalla en la que pueden reproducirse canciones
-- Se puede pausar, adelantar, atrasar, dar play, ir a la proxima cancion, ir a la anterior y acceder a la cola de canciones
+- Se puede pausar, adelantar, atrasar, dar play, ir a la proxima canción, ir a la anterior y acceder a la cola de canciones
 
 <img src="img/mobile/reproductor.jpg" style="width:300px;" />
 
@@ -101,7 +101,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Se pueden observar las proximas canciones a reproducir
+- Se pueden observar las próximas canciones a reproducir
 
 <img src="img/mobile/queue.jpg" style="width:300px;" />
 
@@ -112,9 +112,9 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 ---
 
 - En esta pantalla se pueden ver los albums, canciones y playlists del usuario.
-- Se pueden agregar nuevas canciones, albums y playlist dando click al boton correspondiente.
+- Se pueden agregar nuevas canciones, albums y playlist dando click al botón correspondiente.
 - Al hacer click en un album o playlist lleva a la pantalla del mismo.
-- Al hacer click en una cancion se reproduce
+- Al hacer click en una canción se reproduce
 
 <img src="img/mobile/library.jpg" style="width:300px;" />
 
@@ -144,8 +144,8 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Aqui se crea un nuevo album
-- Se deben proporcionar datos como, nombre, descripcion, generos, tipo de suscription y una imagen.
+- Aquí se crea un nuevo album
+- Se deben proporcionar datos como, nombre, descripción, géneros, tipo de suscripción y una imagen.
 
 <img src="img/mobile/create_album.jpg" style="width:300px;" />
 
@@ -155,8 +155,8 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Aqui se crea una nueva canción
-- Se deben proporcionar datos como, nombre, generos, tipo de suscription, album, el propio archivo de la cancion y los colaboradores que se deseen añadir.
+- Aquí se crea una nueva canción
+- Se deben proporcionar datos como, nombre, géneros, tipo de suscripción, album, el propio archivo de la canción y los colaboradores que se deseen añadir.
 
 <img src="img/mobile/create_song.jpg" style="width:300px;" />
 
@@ -166,8 +166,8 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Aqui se crea una nueva playlist
-- Se deben proporcionar datos como, nombre, descripcion, lista de canciones y de colaboradores.
+- Aquí se crea una nueva playlist
+- Se deben proporcionar datos como, nombre, descripción, lista de canciones y de colaboradores.
 
 <img src="img/mobile/create_playlist.jpg" style="width:300px;" />
 
@@ -179,7 +179,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 - En esta pantalla se puede observar el perfil propio
 - Hay una lista de los albums y playlists que posee, y al hacerles click se pueden editar
-- Hay un boton para acceder a la billetera del usuario, otro para ver su suscripción, otro para editar el perfil y por ultimo un boton para desloguearse
+- Hay un botón para acceder a la billetera del usuario, otro para ver su suscripción, otro para editar el perfil y por ultimo un botón para desloguearse
 
 <img src="img/mobile/your_profile.jpg" style="width:300px;" />
 
@@ -209,7 +209,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Al hacerle click al boton de la billetera en el perfil se accede a la información de esta
+- Al hacerle click al botón de la billetera en el perfil se accede a la información de esta
 - Se puede ver el balance y la dirección, la cual puede ser copiada
 
 <img src="img/mobile/wallet.jpg" style="width:300px;" />
@@ -220,8 +220,8 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Al hacerle click al boton de suscripcion en el perfil se accede a la información de este
-- Se puede ver el tipo de suscripcion actual y elegir un nuevo tipo de suscripcion
+- Al hacerle click al botón de suscripción en el perfil se accede a la información de este
+- Se puede ver el tipo de suscripción actual y elegir un nuevo tipo de suscripción
 
 <img src="img/mobile/subscription.jpg" style="width:300px;" />
 
@@ -231,7 +231,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Al hacerle click al boton de editar perfil, se puede cambiar el nombre del usuario actual y eliminar albums, canciones o playlists.
+- Al hacerle click al botón de editar perfil, se puede cambiar el nombre del usuario actual y eliminar albums, canciones o playlists.
 
 <img src="img/mobile/edit_profile.jpg" style="width:300px;" />
 
@@ -242,8 +242,8 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 ---
 
 - Al deslizar un artista en el buscador se puede acceder al perfil de este
-- Aqui se verán sus albums y playlists
-- También se encuentra un boton para enviarle un mensaje
+- Aquí se verán sus albums y playlists
+- También se encuentra un botón para enviarle un mensaje
 
 <img src="img/mobile/artist_profile.jpg" style="width:300px;" />
 

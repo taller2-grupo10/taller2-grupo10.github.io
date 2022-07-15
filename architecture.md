@@ -2,7 +2,7 @@
 
 ## Diseño - Arquitectura
 
-Inicialmente, el desarrollo de la aplicación comenzó planteandose y diviendo la organización en tres grandes frentes: Mobile, Backend y Frontend (Backoffice).
+El desarrollo de la aplicación comenzó planteándose y dividendo la organización en tres grandes frentes: Mobile, Backend y Frontend (Backoffice).
 
 A continuación podemos observar el diagrama de arquitectura de los servicios de la aplicación.
 
@@ -12,16 +12,15 @@ A continuación podemos observar el diagrama de arquitectura de los servicios de
 
 ## Backend
 
-Inicialmente, el desarrollo del lado del backend comenzó con el diagramado básico de servicios requeridos para poder llevar a cabo la aplicación de forma ordenada.
-De esta forma se decidió tener centralizada la comunicación principal de la aplicación en un solo servicio `users-be`, y que éste se encargase de la comunicación con tanto el _Backoffice_ como con la aplicación _Mobile_.
-Esto dervió en que se utilice el patrón de arquitectura Backend for Frontend, de forma que `users-be` toma requests y se encarga de obtener la respuesta a partir de los demás backends.
+Inicialmente, el backend comenzó con el diagramado básico de servicios requeridos para poder llevar a cabo la aplicación de forma ordenada.
+Es asi como se opto por tener centralizada la comunicación principal de la aplicación en un solo servicio `users-be`, y que éste se encargase de la comunicación con tanto el _Backoffice_ como con la aplicación _Mobile_.
+Esto derivó en que se utilice el patrón de arquitectura Backend for Frontend, de forma que `users-be` toma requests y se encarga de generar la respuesta a partir de los demás backends.
 
 Al comienzo se partió del uso de `users-be` y `media-be`, a los que luego se les sumó el uso de `payments-be` y `api-be`.
 
 ### `Users BE`
 
-Aquí sucede la comunicación principal entre backend y frontend. Tiene la lógica principal de la aplicación en cuanto a usuarios, roles, pagos respecto a usuarios, etc.
-Cualquier recurso necesario se obtiene de este backend o haciendo requests a los demás.
+Aquí sucede la comunicación principal entre backend y frontend. Tiene la lógica necesaria en cuanto a lo relacionado con los usuarios (y sus transacciones), roles, etc y ademas es la puerta de enlace con los demas servicios, por ende toda las requests pasaran por aquí.
 
 Se realizó en Python con Flask como framework de desarrollo, junto a `flask_restx` para la documentación de la API REST. Para el manejo de la base de datos se utilizó PostgreSQL (relacional).
 
@@ -35,7 +34,7 @@ Aquí se almacenan todos los datos de canciones, álbumes, artistas, playlists, 
 
 ### `Payments BE`
 
-El servicio tiene la finalidad de manejar la comunicación con el Smart Contract y la red Etherium con el objetivo de poder realizar transacciones. El servicio de pagos fue realizado en Node.js con Fastify como framework y con base de datos en PostgreSQL (relacional). Se almacenan objetos como las transacciones, las billeteras, etc.
+El servicio tiene la finalidad de manejar la comunicación con el Smart Contract y la red Ethereum con el objetivo de poder realizar transacciones. El servicio de pagos fue realizado en Node.js con Fastify como framework y con base de datos en PostgreSQL (relacional). Se almacenan objetos como las transacciones, las billeteras, etc.
 
 ### `API BE`
 
@@ -64,12 +63,6 @@ Estas notificaciones son enviadas desde `users-be` a los usuarios mediante una _
 
 ---
 
-## Cliente
-
-Aplicación mobile realizada en JavaScript con React Native
-
----
-
 ## API REST
 
 <a href="https://users-be-spotifiuby.herokuapp.com/doc" style="margin-right: 10px;" target="_blank">
@@ -95,5 +88,3 @@ Aplicación mobile realizada en JavaScript con React Native
 </a>
 
 ---
-
-Instalación y configuración --> repos readme

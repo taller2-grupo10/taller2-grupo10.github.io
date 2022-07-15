@@ -26,11 +26,11 @@ Se dio más enfoque al front mobile por lo que el frontend de admin se mantuvo c
 ## Frontend: Mobile
 
 - Login con email y contraseña mediante Firebase.
-- Reproduccion de canción.
+- Reproducción de canción.
 - Visualización de perfil propio y de otros usuarios.
 - Búsqueda de contenido completo.
-- Creación de canciones y albumes.
-- Listado de albumes.
+- Creación de canciones y álbumes.
+- Listado de álbumes.
 - Darle forma y embellecer la UI dando un _feeling_ de Spotify.
 
 ---
@@ -41,7 +41,7 @@ Se dio más enfoque al front mobile por lo que el frontend de admin se mantuvo c
 - Completar el deploy del backend de Media.
 - Realización de tests en ambos backends.
 - Documentación de endpoints para ambos backends con Swagger.
-- [Media] Creacion de los modelos básicos de genres, albums, songs, artists y sus CRUDs respectivos para que el backend de Users realice las operaciones necesarias.
+- [Media] Creación de los modelos básicos de genres, albums, songs, artists y sus CRUDs respectivos para que el backend de Users realice las operaciones necesarias.
 - Upload de archivos a Firebase.
 - Endpoints necesarios para cumplir con los requerimientos de los front ends.
 - Creación de playlists.
