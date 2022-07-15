@@ -9,7 +9,7 @@
 
 ## Resumen
 
-Esta es la aplicación principal de Spotifiuby, desarrollada para android. Esta cuenta con diferentes pantallas que nos permiten interactuar con la aplicación. Se pueden crear albunes, playlists y canciones, asi como escucharlas y buscarlas. También posee un sistema de suscripción con 4 tiers, que puede ser pagado a través de Ethereum. Se puede enviar mensajes a otros usuarios de la plataforma.
+Esta es la aplicación principal de Spotifiuby, desarrollada para android. Esta cuenta con diferentes pantallas que nos permiten interactuar con la aplicación. Se pueden crear albums, playlists y canciones, asi como escucharlas y buscarlas. También posee un sistema de suscripción con 4 tiers, que puede ser pagado a través de Ethereum. Se puede enviar mensajes a otros usuarios de la plataforma.
 
 Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript, utilizando la biblioteca NativeBase ([NB](https://nativebase.io/)), y expo como proveedor de la aplicación, asi también como herramienta de exportación al formato apk ([EXPO](https://docs.expo.dev/))
 
@@ -20,7 +20,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 ---
 
 - Para registrarse es necesario proveer distintos datos, estos son, el nombre completo, email, contraseña, locación y generos de interes
-- Snackbar para mostrar errores/cuando se ingresa correctamente
+- Snackbar para mostrar errores
 - Validación de campos (formato mail, contraseña segura, campos requeridos)
 - Botón con estado cargando
 
@@ -34,7 +34,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 ---
 
 - Únicamente se podrá ingresar con un usuario ya registrado, utilizando su email y contraseña
-- Snackbar para mostrar errores/cuando se ingresa correctamente
+- Snackbar para mostrar errores
 - Botón con estado cargando
 
 <img src="img/mobile/sign_in.jpg" style="width:300px;" />
@@ -47,7 +47,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- En caso de olvidarse la contraseña es posible recuperarla, indicando el email asociado se enviará un email a esa casilla.
+- En caso de olvidarse la contraseña es posible recuperarla, indicando el email asociado a la cuenta.
 - Snackbar para mostrar errores/cuando se ingresa correctamente
 
 <img src="img/mobile/forgot_password.jpg" style="width:300px;" />
@@ -58,8 +58,8 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Es la pantalla principal de la aplicación, se muestran albunes, canciones y playlists recomendadas basadas en la locación y géneros elegidos al registrarse.
-- Hay también un botón que lleva a la pantalla de notificaciones.
+- Es la pantalla principal de la aplicación, se muestran albums, canciones y playlists recomendadas basadas en la locación y géneros elegidos al registrarse.
+- Posee un botón que lleva a la pantalla de notificaciones.
 - Se puede observar la nav bar inferior para navegar a otras pantallas
 
 <img src="img/mobile/home.jpg" style="width:300px;" />
@@ -111,8 +111,8 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- En esta pantalla se pueden ver los albunes, canciones y playlist del usuario.
-- Se pueden agregar nuevas canciones, albunes y playlist dando click al boton correspondiente.
+- En esta pantalla se pueden ver los albums, canciones y playlists del usuario.
+- Se pueden agregar nuevas canciones, albums y playlist dando click al boton correspondiente.
 - Al hacer click en un album o playlist lleva a la pantalla del mismo.
 - Al hacer click en una cancion se reproduce
 
@@ -177,7 +177,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- En esta pantalla se puede observar el perfil del usuario
+- En esta pantalla se puede observar el perfil propio
 - Hay una lista de los albums y playlists que posee, y al hacerles click se pueden editar
 - Hay un boton para acceder a la billetera del usuario, otro para ver su suscripción, otro para editar el perfil y por ultimo un boton para desloguearse
 
@@ -231,7 +231,7 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 
 ---
 
-- Al hacerle click al boton de editar perfil, se puede cambiar el nombre y eliminar albunes, canciones y playlists.
+- Al hacerle click al boton de editar perfil, se puede cambiar el nombre del usuario actual y eliminar albums, canciones o playlists.
 
 <img src="img/mobile/edit_profile.jpg" style="width:300px;" />
 
@@ -242,7 +242,8 @@ Para el desarrollo de ésta aplicación fue utilizado ReactNative en javascript,
 ---
 
 - Al deslizar un artista en el buscador se puede acceder al perfil de este
-- Aqui se verán sus albunes y playlists, y hay un boton para enviarle un mensaje
+- Aqui se verán sus albums y playlists
+- También se encuentra un boton para enviarle un mensaje
 
 <img src="img/mobile/artist_profile.jpg" style="width:300px;" />
 
